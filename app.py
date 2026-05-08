@@ -23,4 +23,4 @@ def upload_schema():
     return jsonify({"error": "No schema uploaded"}), 400
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False)
